@@ -4,7 +4,7 @@ job('lwautojob1') {
     
 
     scm {
-        github(ownerAndProject=krishabh080/myjenkins, branch = 'main')
+        github(ownerAndProject= krishabh080/simple-java-maven-app, branch = 'master')
               
     }
     steps {
